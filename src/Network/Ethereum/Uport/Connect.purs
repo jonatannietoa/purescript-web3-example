@@ -21,13 +21,9 @@ import Control.Monad.Eff.Exception (EXCEPTION)
 import Control.Monad.Eff.Uncurried (EffFn1, EffFn2, runEffFn1, runEffFn2)
 import Data.Maybe (Maybe(..))
 import Data.Nullable (Nullable, toNullable)
-import Data.Record as R
-import Data.Record.Builder (build, merge)
-import Data.Symbol (SProxy(..))
 import Network.Ethereum.Uport.Network (Network)
 import Network.Ethereum.Uport.Signer (Signer)
 import Network.Ethereum.Web3 (Provider)
-import Type.Row (class RowLacks)
 
 -- | This effect is used to annotate code which possibly uses Uport lib
 -- | for signing etherium transactions.
