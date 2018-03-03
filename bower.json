@@ -7,7 +7,7 @@
     "purescript-react-dom": "^4.0.0",
     "purescript-react-material-ui": "^0.1.0",
     "purescript-thermite": "https://github.com/blinky3713/purescript-thermite.git#6.0.0",
-    "purescript-web3": "https://github.com/f-o-a-m/purescript-web3.git#reader",
-    "purescript-web3-generator": "https://github.com/f-o-a-m/purescript-web3-generator.git#reader"
+    "purescript-web3": "^0.16.0",
+    "purescript-web3-generator": "^0.16.0"
   }
 }
